@@ -28,3 +28,36 @@
     transform: translate(-50%,-50%);      This can also be used display items centre*/
     position: absolute;
 }
+.mercury{
+    height: 20px;
+    width:  20px;
+    position: absolute;
+    border-radius: 50%;
+    left: 43%;
+    top: 42%;
+    background: maroon;
+    animation: orbitm 2s linear infinite;
+}
+@keyframes orbitm {
+    from{transform:rotate(0deg) translateX(70px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(70px) rotate(-360deg)}
+}
+p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: -62px;
+    top: -11px;
+}
+.mercury-outline,.venus-outline-1,.earth-outline-1,.mars-outline-1,.jupiter-outline-1,.saturn-outline-1,.uranus-outline-1,.neptune-outline-1{
+    border-radius: 50%;
+    border: 1px dotted white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mercury-outline{
+    height: 140px;
+    width: 140px;
+}
