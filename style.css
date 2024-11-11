@@ -61,3 +61,24 @@ p{
     height: 140px;
     width: 140px;
 }
+
+.venus{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    border-radius: 50%;
+    left: 40%;
+    top: 42%;
+    background: rgb(199, 70, 102);
+    animation: orbitv 10s linear infinite;
+}
+
+@keyframes orbitv {
+    from{transform:rotate(0deg) translateX(100px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(100px) rotate(-360deg)}
+}
+
+.venus-outline-1{
+    height: 200px;
+    width: 200px;
+}
