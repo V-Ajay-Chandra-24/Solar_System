@@ -35,7 +35,9 @@
     border-radius: 50%;
     left: 43%;
     top: 42%;
-    background: maroon;
+    background-image: url(https://w7.pngwing.com/pngs/300/628/png-transparent-earth-mercury-apparent-retrograde-motion-planet-earth-atmosphere-sphere-outer-space-thumbnail.png);
+    background-position: center;
+    background-size: cover;
     animation: orbitm 2s linear infinite;
 }
 @keyframes orbitm {
@@ -69,7 +71,9 @@ p{
     border-radius: 50%;
     left: 40%;
     top: 42%;
-    background: rgb(199, 70, 102);
+    background-image: url(https://w7.pngwing.com/pngs/476/53/png-transparent-venus-fashion-venus-sphere-venus-astronomical-object-thumbnail.png);
+    background-position: center;
+    background-size: cover;
     animation: orbitv 10s linear infinite;
 }
 
@@ -90,7 +94,9 @@ p{
     border-radius: 50%;
     left: 44%;
     top: 43%;
-    background: rgb(0, 245, 37);
+    background-image: url(https://w7.pngwing.com/pngs/580/212/png-transparent-earth-file-formats-earth-image-file-formats-globe-atmosphere-thumbnail.png);
+    background-position: center;
+    background-size: cover;
     animation: orbite 20s linear infinite;
 }
 
@@ -117,7 +123,9 @@ p{
 .earth-inner{
     height: 10px;
     width: 10px;
-    background-color: #fff;
+    background-image: url(https://w7.pngwing.com/pngs/618/70/png-transparent-moon-moon-atmosphere-monochrome-sphere-thumbnail.png);
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -129,4 +137,119 @@ p{
 @keyframes orbitem {
     from{transform:rotate(0deg) translateX(33px) rotate(0deg)}
     to{transform:rotate(360deg) translateX(33px) rotate(-360deg)}
+}
+
+.mars{
+    height: 30px;
+    width:  30px;
+    position: absolute;
+    border-radius: 50%;
+    left: 46.5%;
+    top: 46.5%;
+    background-image: url(https://w7.pngwing.com/pngs/16/806/png-transparent-planet-mars-illustration-earth-terrestrial-planet-mars-solar-system-mars-sphere-venus-astronomical-object-thumbnail.png);
+    background-position: center;
+    background-size: cover;
+    animation: orbitma 30s linear infinite;
+}
+
+@keyframes orbitma {
+    from{transform:rotate(0deg) translateX(185px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(185px) rotate(-360deg)}
+}
+
+.mars-outline-1{
+    height: 370px;
+    width: 370px;
+}
+
+.jupiter{
+    height: 40px;
+    width:  40px;
+    position: absolute;
+    border-radius: 50%;
+    left: 45%;
+    top: 45%;
+    background-image: url(https://w7.pngwing.com/pngs/552/71/png-transparent-agar-io-jupiter-planet-solar-system-jupiter-solar-system-saturn-great-red-spot-thumbnail.png);
+    background-position: center;
+    background-size: cover;
+    animation: orbitj 60s linear infinite;
+}
+
+@keyframes orbitj {
+    from{transform:rotate(0deg) translateX(217px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(217px) rotate(-360deg)}
+}
+
+.jupiter-outline-1{
+    height: 430px;
+    width: 430px;
+}
+
+.saturn{
+    height: 50px;
+    width:  50px;
+    position: absolute;
+    border-radius: 50%;
+    left: 46.5%;
+    top: 46.5%;
+    background-image: url(https://i.pinimg.com/736x/65/44/42/6544426207b93738e1d5bbf6e3c7b569.jpg);
+    background-position: center;
+    background-size: 350%;
+    animation: orbits 90s linear infinite;
+}
+
+@keyframes orbits {
+    from{transform:rotate(0deg) translateX(250px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(250px) rotate(-360deg)}
+}
+
+.saturn-outline-1{
+    height: 500px;
+    width: 500px;
+}
+
+.uranus{
+    height: 30px;
+    width:  30px;
+    position: absolute;
+    border-radius: 50%;
+    left: 48%;
+    top: 48%;
+    background-image: url(https://w7.pngwing.com/pngs/761/864/png-transparent-blue-planet-ice-planet-uranus-mercury-neptune-planets-miscellaneous-atmosphere-computer-wallpaper-thumbnail.png);
+    background-position: center;
+    background-size: 110%;
+    animation: orbitu 200s linear infinite;
+}
+
+@keyframes orbitu {
+    from{transform:rotate(0deg) translateX(280px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(280px) rotate(-360deg)}
+}
+
+.uranus-outline-1{
+    height: 560px;
+    width: 560px;
+}
+
+.neptune{
+    height: 30px;
+    width:  30px;
+    position: absolute;
+    border-radius: 50%;
+    left: 48%;
+    top: 48%;
+    background-image: url(https://w7.pngwing.com/pngs/277/913/png-transparent-neptune-planet-solar-system-venus-uranus-harbor-seal-purple-blue-animals-thumbnail.png);
+    background-position: center;
+    background-size: 120%;
+    animation: orbitn 400s linear infinite;
+}
+
+@keyframes orbitn {
+    from{transform:rotate(0deg) translateX(310px) rotate(0deg)}
+    to{transform:rotate(360deg) translateX(310px) rotate(-360deg)}
+}
+
+.neptune-outline-1{
+    height: 620px;
+    width: 620px;
 }
